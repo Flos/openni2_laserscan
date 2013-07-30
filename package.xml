@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>openni2_laserscan</name>
+  <version>0.0.1</version>
+  <description>Generates a Laserscan directly out of Openni2 with minimal overhead</description>
+  <maintainer email="florian-denis.nolden@alumni.fh-aachen.de">Florian Nolden</maintainer>
+  <license>MIT</license>
+  <url type="website">http://ros.org/wiki/openni_laserscan</url>
+  <author email="florian-denis.nolden@alumni.fh-aachen.de">Florian Nolden</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+</package>

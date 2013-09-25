@@ -21,7 +21,7 @@ int main(int argc, char **argv)
 	  ros::Publisher scan_pub = n.advertise<sensor_msgs::LaserScan>("openni2_laserscan", 50);
 
 	  int count = 0;
-	  ros::Rate r(1.0);
+	  ros::Rate r(30.0);
 
 		OpenniLaser::OpenniLaserScanner laserScanner;
 
